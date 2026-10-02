@@ -1,0 +1,75 @@
+.gol{
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .gol_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 1150px;
+        height: 588px;
+        background-image: url(../assets/Background.png);
+        h2{
+            position: relative;
+            bottom: 8vh;
+            height: 1vh;
+            color: #FFFFFF;
+            font-size: 70px;
+            font-weight: 700;
+        }
+        p{
+            position: relative;
+            bottom: 8vh;
+            height: 1vh;
+            color: #FFFFFF;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        h3{
+            position: relative;
+            bottom: 8vh;
+            height: 1vh;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .pm{
+            position: relative;
+            bottom: 8vh;
+            position: relative;
+            left: 3.5vw;
+            height: 1vh;
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .sero{
+            width: 26vw;
+            display: flex;
+            justify-content: space-around;
+            .now{
+                width: 232px;
+                height: 74px;
+                border: 1px solid #FF8A00;
+                background-color: #FF8A00;
+                border-radius: 40px;
+                color: #FFFFFF;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .rese{
+                width: 232px;
+                height: 74px;
+                border: 1px solid #FFFFFFF2;
+                background-color: #FFFFFFF2;
+                border-radius: 40px;
+                color: #311F09;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.gla{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .gla_container{
+        width: 70vw;
+        height: 90vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h2{
+            color: #311F09;
+            font-size: 70px;
+            font-weight: 700;
+            height: 14vh;
+        }
+        span{
+            color: #FF8A00;
+        }
+        h3{
+            color: #000000;
+            font-size: 36px;
+            font-weight: 600;
+        }
+        p{
+            color: #5C4529;
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 44px;
+        }
+    }
+}

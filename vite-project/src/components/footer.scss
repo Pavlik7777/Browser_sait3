@@ -1,0 +1,61 @@
+.Footer{
+    width: 98vw;
+    background-color: #311F09;
+    .kol{
+        width: 98vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .kol_container{
+            width: 70vw;
+            display: flex;
+            justify-content: space-around;
+            .vir{
+                width: 13vw;
+                p{
+                    color: #E3E2E0;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 40px;
+                }
+                .imm{
+                    width: 13vw;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            .lao{
+                h2{
+                    position: relative;
+                    left: 2vw;
+                    height: 4vh;
+                    color: #FF8A00;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                ul{
+                    line-height: 40px;
+                    li{
+                        color: #E3E2E0;
+                        font-size: 20px;
+                        font-weight: 400;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+    .copy{
+        width: 98vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: #E3E2E0;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}
