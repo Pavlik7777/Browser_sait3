@@ -1,0 +1,47 @@
+.bil{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .bil_container{
+        width: 85vw;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .resp{
+            width: 36vw;
+            h1{
+                color: #311F09;
+                font-size: 70px;
+                font-weight: 700;
+            }
+            span{
+                color: #FF8A00;
+            }
+            p{
+                color: #5C4529;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 35px;
+            }
+        }
+    }
+}
+.row{
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    .row_container{
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        p{
+            line-height: 34px;
+            color: #5C4529;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

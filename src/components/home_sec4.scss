@@ -1,0 +1,44 @@
+.Home_sec4{
+    width: 98vw;
+    background-color: rgba(255, 244, 231, 0.15);
+    .no{
+        width: 98vw;
+        display:flex;
+        justify-content: center;
+        .no_container{
+            width: 70vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .le{
+
+                h2{
+                    color: #311F09;
+                    font-size: 70px;
+                    font-weight: 700;
+                    height: 15vh;
+                }
+                span{
+                    color: #FF8A00;
+                }
+                p{
+                    color: #5C4529;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 36px;
+                    height: 20vh;
+                }
+                button{
+                    width: 232px;
+                    height: 74px;
+                    background-color: #FF8A00;
+                    border: 1px solid #FF8A00;
+                    border-radius: 40px;
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
